@@ -1,0 +1,35 @@
+{
+  "name": "@punk.bid/merkle",
+  "version": "0.0.1",
+  "description": "Native merkle tree implementation optimized for the punk.bid project",
+  "author": "caapi <punk.bid@proton.me>",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "gypfile": true,
+  "files": [
+    "src/*",
+    "binding.gyp"
+  ],
+  "bugs": {
+    "url": "https://github.com/punkbid/punkbid-js-merkle/issues"
+  },
+  "homepage": "https://github.com/punkbid/punkbid-js-merkle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/punkbid/punkbid-js-merkle.git"
+  },
+  "scripts": {
+    "install": "npm run build-release",
+    "build-release": "node-gyp rebuild --release",
+    "build-debug": "node-gyp rebuild --debug",
+    "test": "node test/merkle.test.js"
+  },
+  "dependencies": {
+    "node-addon-api": "^6.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.3.0"
+  }
+}
