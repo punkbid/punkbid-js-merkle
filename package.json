@@ -1,6 +1,6 @@
 {
   "name": "@punk.bid/merkle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Native merkle tree implementation optimized for the punk.bid project",
   "author": "caapi <punk.bid@proton.me>",
   "license": "MIT",
