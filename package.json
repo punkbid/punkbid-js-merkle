@@ -10,7 +10,8 @@
   "gypfile": true,
   "files": [
     "src/*",
-    "binding.gyp"
+    "binding.gyp",
+    "index.d.ts"
   ],
   "bugs": {
     "url": "https://github.com/punkbid/punkbid-js-merkle/issues"
